@@ -11,7 +11,7 @@ from io import BytesIO
 TMP_DIR = "tmp_pack"
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
 HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"}
-REPO = "Dhalian/LumiAIO"
+REPO = "homebrewfrance/LumiAIO"
 RELEASE_TAG = "V1"
 
 GENERATED_PACKS = []
@@ -150,7 +150,7 @@ create_zip("VANILLA")
 # ---------------------------
 # 2. Ntrboot.zip (Vanilla + ntrboot_flasher.firm)
 clean_tmp()
-with zipfile.ZipFile("Vanilla.zip") as z:
+with zipfile.ZipFile("LumiAIO-VANILLA.zip") as z:
     z.extractall(TMP_DIR)
 
 ntr_dir = os.path.join(TMP_DIR, "luma", "payloads")
@@ -167,7 +167,7 @@ create_zip("NTRBOOTHAX")
 # ---------------------------
 # 3. KartMiner7.zip
 clean_tmp()
-with zipfile.ZipFile("Vanilla.zip") as z:
+with zipfile.ZipFile("LumiAIO-VANILLA.zip") as z:
     z.extractall(TMP_DIR)
 
 menuhax_io, _ = download_github_release("zoogie/menuhax67")
@@ -192,7 +192,7 @@ create_zip("KARTMINER7")
 # ---------------------------
 # 4. Browserhax.zip
 clean_tmp()
-with zipfile.ZipFile("Vanilla.zip") as z:
+with zipfile.ZipFile("LumiAIO-VANILLA.zip") as z:
     z.extractall(TMP_DIR)
 
 api_url = "https://api.github.com/repos/zoogie/old-browserhax/releases/latest"
@@ -222,7 +222,7 @@ create_zip("BROWSERHAX")
 # ---------------------------
 # 5. MSET9.zip
 clean_tmp()
-with zipfile.ZipFile("Vanilla.zip") as z:
+with zipfile.ZipFile("LumiAIO-VANILLA.zip") as z:
     z.extractall(TMP_DIR)
 
 api_url = "https://api.github.com/repos/zoogie/MSET9/releases/latest"
