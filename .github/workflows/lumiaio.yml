@@ -3,7 +3,7 @@ name: LumiAIO Automation
 on:
   schedule:
     # Tous les jours à 23h (UTC)
-    - cron: '0 23 * * *'
+    - cron: '30 20 * * *'
   workflow_dispatch: # Permet de lancer manuellement
 
 jobs:
