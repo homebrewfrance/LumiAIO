@@ -3,42 +3,74 @@ Les packs prêts à l'emploi utilisés pour Homebrew France
 
 # Présentation des packs :
 
-## Pack Luma3DS KartMiner7
+## Pack Luma3DS BROWSERHAX (LumiAIO BROWSERHAX)
 ### Ce pack contient :
 - Luma3DS
-- Anemone
-- Checkpoint
-- FBI (3dsx et cia)
-- Homebrew Launcher
-- Universal-Updater
-- nimdsphax
-- menuhax67
-- boot9strap-installer
-
-## Pack Luma3DS Vanilla
-### Ce pack contient :
-- Luma3DS
-- Anemone
-- Checkpoint
-- FBI (3dsx et cia)
-- Homebrew Launcher
-- Universal-Updater
-
-## Pack Luma3DS NTRBOOTHAX
-### Ce pack contient :
-- Luma3DS
-- Anemone 
-- Checkpoint
-- FBI (3dsx et cia)
-- Homebrew Launcher
+- Boot9Strap
+- FBI
 - Universal-Updater
 - GodMode9
+- SafeB9SInstaller
+- Homebrew_Launcher
+- Anemone3DS
+- Checkpoint
+- Browserhax
 
-## Pack Luma3DS BROWSERHAX
+
+## Pack Luma3DS KartMiner7 (LumiAIO KARTMINER7)
 ### Ce pack contient :
-- Homebrew Launcher
-- Universal-Updater 
-- arm11code
-- browserhax_hblauncher_ropbin_payload
+- Luma3DS
+- Boot9Strap
+- FBI
+- Universal-Updater
+- GodMode9
+- SafeB9SInstaller
+- Homebrew_Launcher
+- Anemone3DS
+- Checkpoint
+- Menuhax67
+- NimDSPhax
+
+
+## Pack Luma3DS MSET9 (LumiAIO MSET9)
+### Ce pack contient :
+- Luma3DS
+- Boot9Strap
+- FBI
+- Universal-Updater
+- GodMode9
+- SafeB9SInstaller
+- Homebrew_Launcher
+- Anemone3DS
+- Checkpoint
+- MSET9
+
+
+## Pack Luma3DS NTRBOOTHAX (LumiAIO NTRBOOTHAX)
+### Ce pack contient :
+- Luma3DS
+- Boot9Strap
+- FBI
+- Universal-Updater
+- GodMode9
+- SafeB9SInstaller
+- Homebrew_Launcher
+- Anemone3DS
+- Checkpoint
+- ntrboot_flasher
+
+
+## Pack Luma3DS Vanilla (LumiAIO VANILLA)
+### Ce pack contient :
+- Luma3DS
+- Boot9Strap
+- FBI
+- Universal-Updater
+- GodMode9
+- SafeB9SInstaller
+- Homebrew_Launcher
+- Anemone3DS
+- Checkpoint
+
 
 ## Ces packs sont mis à jour de façon automatique.
